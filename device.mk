@@ -24,4 +24,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 include $(LOCAL_PATH)/product/*.mk
 
 # Inherit proprietary files
-$(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
+$(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)

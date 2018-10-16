@@ -1,3 +1,3 @@
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=IsaacChen
+    ro.mk.maintainer=subdragonzj

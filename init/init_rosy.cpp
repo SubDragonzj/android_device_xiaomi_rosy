@@ -101,7 +101,7 @@ static void init_setup_model_properties()
     std::string buf;
 
     std::string product = property_get("ro.product.name");
-    if (product.find("vince") == std::string::npos)
+    if (product.find("rosy") == std::string::npos)
         return;
 
     fin.open("/proc/cmdline");
@@ -113,7 +113,7 @@ static void init_setup_model_properties()
     if (buf.find("India") != std::string::npos) {
         property_set("ro.product.model", "Redmi Note 5");
     } else {
-        property_set("ro.product.model", "Redmi 5 Plus");
+        property_set("ro.product.model", "Redmi 5");
     }
 }
 

@@ -190,6 +190,6 @@ Value * VerifyTrustZoneFn(const char *name, State *state, int argc, Expr *argv[]
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_vince() {
-    RegisterFunction("vince.verify_trustzone", VerifyTrustZoneFn);
+void Register_librecovery_updater_rosy() {
+    RegisterFunction("rosy.verify_trustzone", VerifyTrustZoneFn);
 }

@@ -116,21 +116,6 @@ vendor/lib64/libvendorconn.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Camera firmware - from vince
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_5_2.fw
-etc/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_12_0.fw
-
-# Charger - from vince
-bin/hvdcp_opti
-
 # Consumer IR - from vince
 lib64/hw/consumerir.default.so
 
@@ -294,22 +279,6 @@ vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
-
-# Graphics firmware - from vince
-etc/firmware/a506_zap.b00
-etc/firmware/a506_zap.b01
-etc/firmware/a506_zap.b02
-etc/firmware/a506_zap.elf
-etc/firmware/a506_zap.mdt
-etc/firmware/a530_gpmu.fw2
-etc/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw
-etc/firmware/a530v1_pfp.fw
-etc/firmware/a530v1_pm4.fw
-etc/firmware/a530v2_seq.fw2
-etc/firmware/a530v3_gpmu.fw2
-etc/firmware/a530v3_seq.fw2
-etc/firmware/a540_gpmu.fw2
 
 # Keystore - from vince
 vendor/lib/hw/keystore.msm8953.so
@@ -527,3 +496,6 @@ vendor/lib64/libTimeService.so
 
 # Wi-Fi - from vince
 bin/wcnss_service
+
+# TAS Smart PA Firmware - from vince
+etc/firmware/tas2557_uCDSP.bin

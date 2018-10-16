@@ -4,12 +4,12 @@
     "target_path": "device/qcom/common"
   },
   {
-    "repository": "android_vendor_xiaomi_vince",
-    "target_path": "vendor/xiaomi/vince"
+    "repository": "android_vendor_xiaomi_rosy",
+    "target_path": "vendor/xiaomi/rosy"
   },
   {
-    "repository": "android_kernel_xiaomi_vince",
-    "target_path": "kernel/xiaomi/vince"
+    "repository": "android_kernel_xiaomi_rosy",
+    "target_path": "kernel/xiaomi/rosy"
   },
   {
     "repository": "android_packages_resources_devicesettings",
