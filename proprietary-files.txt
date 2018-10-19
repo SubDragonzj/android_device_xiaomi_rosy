@@ -52,6 +52,10 @@ vendor/lib/libmorpho_panorama_gp.so
 vendor/lib64/libmorpho_panorama_gp.so
 vendor/lib/libFaceGrade.so
 lib/libqomx_core.so
+vendor/lib/libdualcameraddm.so
+vendor/lib64/libdualcameraddm.so
+vendor/lib/libjni_dualcamera.so
+vendor/lib64/libjni_dualcamera.so
 
 # Camera actuators - from rosy
 vendor/lib/libactuator_ad5816g.so
